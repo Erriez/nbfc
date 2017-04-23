@@ -4,7 +4,8 @@ NBFC (NoteBook Fan Control) is a cross-platform Windows and Linux fan control se
 It comes with a powerful configuration system, which allows to adjust it to many different notebook models.
 
 ## NBFC fork to support HP Pavilion 17-ab240nd 
-This is a fork of the "NoteBook FanControl" project to support the HP Pavilion 17-ab240nd Notebook for Windows 10.
+This is a fork of the [NoteBook FanControl](https://github.com/hirschmann/nbfc) project to support the HP Pavilion 
+17-ab240nd Notebook for Windows 10.
 
 The HP Pavilion 17-ab240nd build-in CPU fan is automatically controlled by hardware which consists of 4 fan speeds:
 * Step 1. On:              Noisy, but acceptable
@@ -136,12 +137,6 @@ Currently there are no pre-built releases for Linux, but you can easily build NB
 - [First steps](https://github.com/hirschmann/nbfc/wiki/First-steps)
 - [FAQ](https://github.com/hirschmann/nbfc/wiki/FAQ) (please read this before you submit a new issue)
 - [Structure of a NBFC config file](https://github.com/hirschmann/nbfc/wiki/Structure-of-a-NBFC-config-file) (in case you want to edit or create a NBFC config)
-
-## Build status
-| Platform | CI service | Status |
-|---|---|---|
-| Linux | Travis | [![Travis](https://img.shields.io/travis/hirschmann/nbfc.svg)](https://travis-ci.org/hirschmann/nbfc) |
-| Windows | AppVeyor | [![AppVeyor](https://img.shields.io/appveyor/ci/hirschmann/nbfc.svg)](https://ci.appveyor.com/project/hirschmann/nbfc) |
 
 ## Credits
 Many thanks to everyone who submitted pull requests, created config files, donated, or in any other way contributed to this project. :)
